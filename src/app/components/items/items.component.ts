@@ -18,14 +18,14 @@ export class ItemsComponent implements OnInit {
     /* this.items = [
       {
         id: 0,
-        title: 'manzana',
+        title: 'Chocolate Bar',
         price: 20,
         quantity: 4,
       },
       {
         id: 0,
-        title: 'leche',
-        price: 20,
+        title: 'Pizza',
+        price: 79,
         quantity: 4,
       }
     ];*/
