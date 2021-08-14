@@ -53,7 +53,6 @@ export class ItemsComponent implements OnInit {
 
   getTotal(){
     this.total = this.items
-    .filter(item => item.completed === false)
     .map(item => item.price * item.quantity)
     .reduce((acc, item) => acc += item, 0);
   }
